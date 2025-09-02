@@ -81,17 +81,17 @@ const Navbar = () => {
           <div>
             <ul className="hidden md:flex items-center gap-5 text-lg font-medium">
               <li>
-                <Link to="#" className="hover:text-blue-400 transition">
+                <Link to="/" className="hover:text-blue-400 transition">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-blue-400 transition">
+                <Link to="/about" className="hover:text-blue-400 transition">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-blue-400 transition">
+                <Link to="/services" className="hover:text-blue-400 transition">
                   Services
                 </Link>
               </li>
@@ -110,7 +110,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex">
             <a
-              href="#"
+              href="contact"
               className="px-4 py-2 bg-black text-white rounded-2xl hover:bg-green-800 hover:text-white transition"
             >
               Contact
